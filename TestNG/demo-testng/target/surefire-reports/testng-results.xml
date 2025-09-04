@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-22T22:35:08 IST" name="Surefire suite" finished-at="2025-08-22T22:35:08 IST" duration-ms="89">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupTest.addToCart()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="addToCart" class="testng.GroupTest"/>
+        <method signature="GroupTest.login()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="login" class="testng.GroupTest"/>
+        <method signature="GroupTest.search()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="search" class="testng.GroupTest"/>
+      </group> <!-- Sanity -->
+      <group name="regression">
+        <method signature="GroupTest.invoice()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="invoice" class="testng.GroupTest"/>
+        <method signature="GroupTest.logout()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="logout" class="testng.GroupTest"/>
+      </group> <!-- regression -->
+      <group name="Regression">
+        <method signature="GroupTest.payment()[pri:0, instance:testng.GroupTest@6b0c2d26]" name="payment" class="testng.GroupTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-08-22T22:35:08 IST" name="Surefire test" finished-at="2025-08-22T22:35:08 IST" duration-ms="89">
+      <class name="testng.GroupTest">
+        <test-method signature="addToCart()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="addToCart" finished-at="2025-08-22T22:35:08 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method signature="invoice()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="invoice" finished-at="2025-08-22T22:35:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invoice -->
+        <test-method signature="login()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="login" finished-at="2025-08-22T22:35:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="logout" finished-at="2025-08-22T22:35:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="payment()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="payment" finished-at="2025-08-22T22:35:08 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method signature="search()[pri:0, instance:testng.GroupTest@6b0c2d26]" started-at="2025-08-22T22:35:08 IST" name="search" finished-at="2025-08-22T22:35:08 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- testng.GroupTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
